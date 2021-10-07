@@ -1,0 +1,139 @@
+body{background-color: burlywood;
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+}
+
+nav * {
+    color: burlywood !important;
+}
+
+nav ul li {
+    display: inline block !important;
+}
+
+/* https://stackoverflow.com/questions/13341589/how-to-distribute-html-list-items-evenly-in-an-unordered-list */
+nav ul {
+    display: table;
+    width: calc(100% - 60px);
+    list-style: none;
+    }
+    nav ul li {
+    display: table-cell;
+    text-align: center;
+    }
+    nav ul li a {
+    display: block;
+    }
+
+main{
+
+
+text-align: center;
+}
+
+img{
+ max-width: 60%;
+   
+}
+
+.content img {
+    border: 2px solid black;
+}
+
+h1{ color: black}
+h1{font-style:oblique;
+font-size: 50px;
+
+}
+
+
+.content {
+    max-width: 800px;
+    margin: auto;
+
+}
+.spotifylogo{ 
+    
+bottom: 0px;
+left: 0px;
+}
+.spotifylogo img {
+height:50px ;
+width: 60px ;
+}
+
+.line{
+
+border-color: black;
+border-width: 0px;
+border-top: 4px;
+width: 100%;
+border-style: solid;
+margin-bottom: 40px;
+
+}
+.tijd19861991{
+position: absolute;
+left: 0%;
+
+
+}
+.tijd19911996{
+position: absolute;
+left: 10%;
+}
+
+.tijdperk a{
+color: black;
+font-size: 8px;
+}
+ .tijdperk a:hover{
+ color: blue;
+ }  
+.tijd19962001{
+position: absolute;
+left: 25%;
+} 
+.tijd20012006{
+position: absolute;
+left: 35%;
+}
+.tijd20062011{
+position: absolute;
+left:55%
+}
+.tijd20112016{
+position: absolute;
+left:70%
+}
+.tijd20162021{
+position: absolute;
+left:85%
+}
+
+img:hover{
+transform:scale(1.1);
+
+} 
+img{
+transition: 300ms ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+
+nav ul li {
+display: block !important;
+    }
+}
+p{
+word-spacing: 5px;
+}
+ol li{
+margin-bottom: 10px;
+
+}
+  
+
+
