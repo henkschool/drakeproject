@@ -77,13 +77,13 @@ margin-bottom: 40px;
 }
 .tijd19861991{
 position: absolute;
-left: 20%;
+left: 0%;
 
 
 }
 .tijd19911996{
 position: absolute;
-left: 30%;
+left: 5%;
 }
 
 .tijdperk a{
@@ -95,23 +95,23 @@ font-size: 8px;
  }  
 .tijd19962001{
 position: absolute;
-left: 40%;
+left: 20%;
 } 
 .tijd20012006{
 position: absolute;
-left: 50%;
+left: 35%;
 }
 .tijd20062011{
 position: absolute;
-left:60%
+left:50%
 }
 .tijd20112016{
 position: absolute;
-left:70%
+left:65%
 }
 .tijd20162021{
 position: absolute;
-left:80%
+left:10000%
 }
 
 img:hover{
