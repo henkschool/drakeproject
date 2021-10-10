@@ -2,33 +2,33 @@ body{background-color: burlywood;
 }
 
 nav {
-    background-color: black;
-    padding: 20px;
+background-color: black;
+padding: 20px;
 }
 
 nav * {
-    color: burlywood !important;
+color: burlywood !important;
 }
 
 nav ul li {
-    display: inline block !important;
+display: inline block !important;
 }
 
 /* https://stackoverflow.com/questions/13341589/how-to-distribute-html-list-items-evenly-in-an-unordered-list */
 nav ul {
-    display: table;
-    width: calc(100% - 60px);
-    list-style: none;
-    }
+display: table;
+width: calc(100% - 60px);
+list-style: none;
+}
 
 nav ul li {
-    display: table-cell;
-    text-align: center;
-    }
+display: table-cell;
+text-align: center;
+}
 
  nav ul li a {
-    display: block;
-    }
+display: block;
+}
 
 main{
 text-align: center;
@@ -36,30 +36,28 @@ text-align: center;
 
 img{
  max-width: 60%;
-   
 }
 
 .content img {
-    border: 2px solid black;
+border: 2px solid black;
 }
 
 h1{ color: black}
 h1{font-style:oblique;
 font-size: 50px;
-
 }
 
 
 .content {
-    max-width: 800px;
-    margin: auto;
-
+max-width: 800px;
+margin: auto;
 }
+
 .spotifylogo{ 
-    
 bottom: 0px;
 left: 0px;
 }
+
 .spotifylogo img {
 height:50px ;
 width: 60px ;
@@ -67,22 +65,19 @@ width: 60px ;
 
 
 .line{
-
 border-color: black;
 border-width: 0px;
 border-top: 4px;
 width: 100%;
 border-style: solid;
 margin-bottom: 40px;
-
 }
 
 .tijd19861991{
 position: absolute;
 left: 15%;
-
-
 }
+
 .tijd19911996{
 position: absolute; 
 left: 25%;
@@ -124,8 +119,8 @@ left:80%
 
 img:hover{
 transform:scale(1.1);
-
 } 
+
 img{
 transition: 300ms ease-in-out;
 }
@@ -142,7 +137,6 @@ word-spacing: 5px;
 
 ol li{
 margin-bottom: 10px;
-
 }
   
 
